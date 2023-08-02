@@ -15,5 +15,9 @@
      - As a returning visitor I want to find detailed information about dinosaurs. What happened to them? What did they eat? How big were they? 
      - As a returning visitor I want to find social media links to follow up for more information.
      - As a returning visitor I want to find contact information to ask any questions.
-     - As a returning visitor I want to see is there a newsletter I can join or a blog I can follow.
+     - As a returning visitor I want to see is there a newsletter I can join or a blog I can follow. 
+   * Frequent Visitor Goals
+     - As a frequent visitor I want to sign up to a newsletter so I can be kept abreast of any updates.
+     -  As a frequent visitor I want to check if there are any new dinosaur facts.
+     -  As a frequent visitor I want to check if there are any new content to interact with.
     
