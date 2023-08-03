@@ -27,3 +27,4 @@
 
 2. Wireframes
    - Mobile Wireframe  [View here](./assets/images/Mobile%20Dinos.jpg)
+   - Desktop Wireframe [View here](./assets/images/Desktop%20Dinos.jpg)
