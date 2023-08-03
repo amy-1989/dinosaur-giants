@@ -24,3 +24,6 @@
      - As a frequent visitor I want to sign up to a newsletter so I can be kept abreast of any updates.
      - s a frequent visitor I want to check if there are any new dinosaur facts.
      - As a frequent visitor I want to check if there are any new content to interact with.
+
+2. Wireframes
+   - Mobile Wireframe  [View here](../dinosaur-giants/assets/images/Mobile%20Dinos.jpg)
