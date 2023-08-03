@@ -26,5 +26,5 @@
      - As a frequent visitor I want to check if there are any new content to interact with.
 
 2. Wireframes
-   - Mobile Wireframe  [View here](./assets/images/Mobile%20Dinos.jpg)
-   - Desktop Wireframe [View here](./assets/images/Desktop%20Dinos.jpg)
+   - Mobile Wireframe  ![Image of wireframe for mobile devices](./assets/images/Mobile%20Dinos.jpg)
+   - Desktop Wireframe ![Image of wireframe for desktop devices](./assets/images/Desktop%20Dinos.jpg)
