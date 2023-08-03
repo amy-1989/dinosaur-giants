@@ -26,4 +26,4 @@
      - As a frequent visitor I want to check if there are any new content to interact with.
 
 2. Wireframes
-   - Mobile Wireframe  [View here](../dinosaur-giants/assets/images/Mobile%20Dinos.jpg)
+   - Mobile Wireframe  [View here](./assets/images/Mobile%20Dinos.jpg)
