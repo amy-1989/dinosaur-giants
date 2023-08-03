@@ -27,4 +27,4 @@
 
 2. Wireframes
    - Mobile Wireframe  ![Image of wireframe for mobile devices](./assets/images/Mobile%20Dinos.jpg)
-   - Desktop Wireframe ![Image of wireframe for desktop devices](./assets/images/Desktop%20Dinos.png))
+   - Desktop Wireframe ![Image of wireframe for desktop devices](./assets/images/Desktop%20Dinos.png)
