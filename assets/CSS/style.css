@@ -1,5 +1,6 @@
 header {
     font-family: 'tapestry', sans-serif;
+    color: rgb(245, 153, 16);
 }
 
 body {
@@ -8,7 +9,74 @@ body {
 
 #logo {
     text-transform: uppercase;
-    font-style: none;
+    color: rgb(245, 153, 16);
+    float: left;
+    letter-spacing: 4px;
+    font-size: 200%;
+}
+
+.navbar {
+    overflow: hidden;
+    float: right;
+    padding: 20px;
+}
+
+.active {
+    color: rgb(245, 153, 16);
+}
+
+.navbar>a {
+    float: left;
+    color: rgb(1, 53, 1);
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 4px;
+    padding: 14px 16px;
+}
+
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+.subnav .subnavbtn {
+    color: rgb(1, 53, 1);
+    border: none;
+    outline: none;
+    font-family: inherit;
+    background-color: inherit;
+    font-size: 17px;
+    clear: both;
+    text-align: center;
+    padding: 14px 16px;
+    letter-spacing: 4px;
+}
+
+.navbar a:hover,
+.subnavbtn:hover {
+    text-decoration-line: underline;
+}
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.subnav-content a {
+    float: none;
+    color: rgb(1, 53, 1);
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.subnav-content a:hover {
+    text-decoration-line: underline;
+}
+
+.subnav:hover .subnav-content {
+    display: block
 }
 
 #hero-img {
@@ -16,6 +84,7 @@ body {
     height: 400px;
     background: url('../images/Hero\ image.jpg') no-repeat center center;
     background-size: cover;
+    background-position: forwards;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
