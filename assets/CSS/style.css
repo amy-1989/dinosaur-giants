@@ -7,6 +7,13 @@ body {
     font-family: 'pt-serif', sans-serif;
 }
 
+#about {
+    font-family: 'tapestry, sans-serif';
+    color: rgb(245, 153, 16);
+    text-transform: uppercase;
+    text-align: center;
+}
+
 #logo {
     text-transform: uppercase;
     color: rgb(245, 153, 16);
@@ -95,6 +102,10 @@ body {
     width: 100%;
     height: 400px;
     overflow: hidden;
+}
+
+#video {
+    float: right;
 }
 
 @keyframes hero-zoom {
