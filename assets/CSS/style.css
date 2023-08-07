@@ -48,12 +48,12 @@ body {
     outline: none;
     font-family: inherit;
     background-color: inherit;
-    font-size: 17px;
+    font-size: 20px;
     clear: both;
     text-align: center;
-    padding: 14px 16px;
     letter-spacing: 4px;
     text-decoration: none;
+    top: 40px;
 }
 
 .navbar a:hover,
