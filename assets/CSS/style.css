@@ -24,7 +24,7 @@ body {
     margin: 0 auto;
 }
 
-.navbar .active {
+.active {
     color: rgb(245, 153, 16);
 }
 
@@ -49,11 +49,11 @@ body {
     font-family: inherit;
     background-color: inherit;
     font-size: 20px;
-    clear: both;
     text-align: center;
+    padding: 14px 16px;
     letter-spacing: 4px;
     text-decoration: none;
-    top: 40px;
+    margin: auto 0;
 }
 
 .navbar a:hover,
