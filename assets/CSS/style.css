@@ -111,6 +111,7 @@ body {
 
 #video {
     float: right;
+    margin: 0 auto;
 }
 
 @keyframes hero-zoom {
