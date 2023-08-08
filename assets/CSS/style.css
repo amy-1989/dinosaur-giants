@@ -152,10 +152,16 @@ h3 {
 
 .paragraph {
     height: 400px;
-    width: 50%;
+    width: 650px;
     background-color: rgb(1, 53, 1);
     box-shadow: 10px 10px rgba(245, 153, 16, 0.288);
     color: whitesmoke;
+}
+
+.pic {
+    height: 400px;
+    width: 650px;
+    box-shadow: 10px 10px rgba(245, 153, 16, 0.288);
 }
 
 p {
@@ -168,8 +174,24 @@ p>a {
     text-decoration: italic;
 }
 
-#extinct-img {
+.img {
     height: 400px;
     width: 100%;
+}
+
+#middlep {
+    left: 680px;
+    top: 419px;
+    position: absolute;
+}
+
+#extinct {
+    left: 680px;
+    top: 838px;
+    position: absolute;
+}
+
+#fossil {
+    padding-top: 19px;
 
 }
