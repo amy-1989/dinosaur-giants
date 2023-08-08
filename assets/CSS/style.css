@@ -192,6 +192,15 @@ p>a {
 }
 
 #fossil {
-    padding-top: 19px;
+    margin-top: 19px;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(1, 53, 1, 0.541);
+    margin-top: 19px;
+    color: rgb(245, 153, 16);
+    font-family: 'pt-serif', sans-serif;
 
 }
