@@ -113,7 +113,11 @@ body {
 
 #video {
     float: right;
-    margin: 0 auto;
+    height: 400px;
+    box-shadow: 10px 10px rgba(245, 153, 16, 0.288);
+    position: absolute;
+    top: 0px;
+    left: 680px;
 }
 
 @keyframes hero-zoom {
@@ -136,6 +140,10 @@ body {
     bottom: 10px;
 }
 
+.section {
+    position: relative;
+}
+
 h3 {
     text-transform: uppercase;
     color: rgb(245, 153, 16);
@@ -146,14 +154,22 @@ h3 {
     height: 400px;
     width: 50%;
     background-color: rgb(1, 53, 1);
-    box-shadow: 10px 10px rgba(245, 153, 16, 0.288);    
+    box-shadow: 10px 10px rgba(245, 153, 16, 0.288);
     color: whitesmoke;
 }
+
 p {
     text-align: left;
-    margin-top:5px;
+    margin-top: 5px;
 }
-p>a{
+
+p>a {
     color: whitesmoke;
     text-decoration: italic;
+}
+
+#extinct-img {
+    height: 400px;
+    width: 100%;
+
 }
