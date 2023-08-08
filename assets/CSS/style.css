@@ -135,3 +135,19 @@ body {
     position: absolute;
     bottom: 10px;
 }
+
+h3 {
+    text-transform: uppercase;
+    color: rgb(245, 153, 16);
+    font-family: 'tapestry', sans-serif;
+}
+
+.paragraph {
+    height: 400px;
+    width: 50%;
+    background-color: rgb(1, 53, 1);
+    border: rgb(245, 153, 16) solid 2px;
+    border-radius: 25px;
+    color: whitesmoke;
+
+}
