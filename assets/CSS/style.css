@@ -111,6 +111,12 @@ body {
     margin: auto;
 }
 
+h2 {
+    color: rgb(245, 153, 16);
+    font-family: 'tapestry', sans-serif;
+    text-align: center;
+}
+
 #video {
     float: right;
     height: 400px;
@@ -194,6 +200,34 @@ p>a {
 
 #fossil {
     margin-top: 19px;
+}
+
+.spino {
+    float: right;
+    height: 400px;
+    box-shadow: 10px 10px rgba(245, 153, 16, 0.288);
+    position: absolute;
+    top: 50px;
+    left: 680px;
+}
+
+#gigo {
+    float: right;
+    height: 400px;
+    box-shadow: 10px 10px rgba(245, 153, 16, 0.288);
+    position: absolute;
+    top: 469px;
+    left: 680px;
+}
+
+#gigopic {
+    margin-top: 19px;
+}
+
+#trex {
+    left: 680px;
+    top: 888px;
+    position: absolute;
 }
 
 footer {
