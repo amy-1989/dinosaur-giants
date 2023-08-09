@@ -167,6 +167,7 @@ h3 {
 p {
     text-align: left;
     margin-top: 5px;
+    font-family: 'pt-serif', sans-serif;
 }
 
 p>a {
@@ -196,11 +197,29 @@ p>a {
 }
 
 footer {
-    height: 100px;
+    height: 50px;
     width: 100%;
-    background-color: rgba(1, 53, 1, 0.541);
-    margin-top: 19px;
     color: rgb(245, 153, 16);
     font-family: 'pt-serif', sans-serif;
+    text-align: center;
+    padding-top: 19px;
+}
 
+footer li {
+    display: inline;
+}
+
+footer i {
+    color: rgb(1, 53, 1);
+    font-size: 200%;
+    letter-spacing: 50px;
+
+}
+
+footer p>i {
+    color: rgb(1, 53, 1);
+    font-size: 16px;
+    letter-spacing: 4px;
+    text-align: center;
+    padding-left: 450px;
 }
