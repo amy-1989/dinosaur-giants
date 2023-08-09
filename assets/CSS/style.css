@@ -202,12 +202,38 @@ p>a {
     margin-top: 19px;
 }
 
+.topdiv {
+    height: 80px;
+    width: 80%;
+    border: 10px solid rgba(245, 153, 16, 0.288);
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 20px;
+    margin-top: 19px;
+
+}
+
+.topdiv p {
+    color: rgb(1, 53, 1);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.topdiv h2 {
+    margin: 0 auto;
+}
+
+.topdiv h2 p {
+    border: 10px solid rgba(245, 153, 16, 0.288);
+}
+
 .spino {
     float: right;
     height: 400px;
     box-shadow: 10px 10px rgba(245, 153, 16, 0.288);
     position: absolute;
-    top: 50px;
+    top: 139px;
     left: 680px;
 }
 
@@ -216,7 +242,7 @@ p>a {
     height: 400px;
     box-shadow: 10px 10px rgba(245, 153, 16, 0.288);
     position: absolute;
-    top: 469px;
+    top: 559px;
     left: 680px;
 }
 
@@ -224,9 +250,28 @@ p>a {
     margin-top: 19px;
 }
 
+#mamenpic {
+    margin-top: 19px;
+}
+
 #trex {
     left: 680px;
-    top: 888px;
+    top: 981px;
+    position: absolute;
+}
+
+#mamen {
+    float: right;
+    height: 400px;
+    box-shadow: 10px 10px rgba(245, 153, 16, 0.288);
+    position: absolute;
+    top: 559px;
+    left: 680px;
+}
+
+#brachio {
+    left: 680px;
+    top: 981px;
     position: absolute;
 }
 
