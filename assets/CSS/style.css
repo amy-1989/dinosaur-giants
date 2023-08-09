@@ -24,10 +24,6 @@ body {
     margin: 0 auto;
 }
 
-.active {
-    color: rgb(245, 153, 16);
-}
-
 .navbar>a {
     float: left;
     color: rgb(1, 53, 1);
