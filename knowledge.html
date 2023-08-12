@@ -23,29 +23,34 @@
       src="https://kit.fontawesome.com/41aa291a02.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/script.js"></script>
     <title>Dinosaur Giants</title>
   </head>
 
   <body>
     <header>
-      <a href="index.html">
-        <h1 id="logo">Dinosaur Giants</h1>
-      </a>
-      <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="#about">About</a>
-        <nav class="subnav">
-          <a href="dinosaurs.html">
-            <button class="subnavbtn">Dinosaurs</button></a
-          >
-          <nav class="subnav-content">
-            <a href="/dinosaurs.html#carnivores">Carnivores</a>
-            <a href="/dinosaurs.html#herbivores">Herbivores</a>
-          </nav>
+        <a href="index.html">
+            <h1 id="logo">Dinosaur Giants</h1>
+        </a>
+    
+        <nav class="navbar">
+            <nav id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <nav class="subnav">
+                    <a href="dinosaurs.html"> <button class="subnavbtn">
+                            Dinosaurs
+                        </button></a>
+                    <nav class="subnav-content">
+                        <a href="/dinosaurs.html#carnivores">Carnivores</a>
+                        <a href="/dinosaurs.html#herbivores">Herbivores</a>
+                    </nav>
+                </nav>
+                <a href="knowledge.html">Test Your Knowledge</a>
+                <a href="#Contact">Contact</a>
+            </nav>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa-solid fa-bars"></i></a>
         </nav>
-        <a href="knowledge.html">Test Your Knowledge</a>
-        <a href="#Contact">Contact</a>
-    </nav>
     </header>
     <section id="hero-outer">
       <div id="hero-img"></div>

@@ -23,28 +23,33 @@
       src="https://kit.fontawesome.com/41aa291a02.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/script.js"></script>
     <title>Dinosaur Giants</title>
   </head>
   <body>
     <header>
-      <a href="index.html">
-        <h1 id="logo">Dinosaur Giants</h1>
-      </a>
-      <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="/index.html#about">About</a>
-        <nav class="subnav">
-          <a href="dinosaurs.html"
-            ><button class="subnavbtn">Dinosaurs</button></a
-          >
-          <nav class="subnav-content">
-            <a href="#carnivores">Carnivores</a>
-            <a href="#herbivores">Herbivores</a>
-          </nav>
+        <a href="index.html">
+            <h1 id="logo">Dinosaur Giants</h1>
+        </a>
+    
+        <nav class="navbar">
+            <nav id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <nav class="subnav">
+                    <a href="dinosaurs.html"> <button class="subnavbtn">
+                            Dinosaurs
+                        </button></a>
+                    <nav class="subnav-content">
+                        <a href="/dinosaurs.html#carnivores">Carnivores</a>
+                        <a href="/dinosaurs.html#herbivores">Herbivores</a>
+                    </nav>
+                </nav>
+                <a href="knowledge.html">Test Your Knowledge</a>
+                <a href="#Contact">Contact</a>
+            </nav>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa-solid fa-bars"></i></a>
         </nav>
-        <a href="knowledge.html">Test Your Knowledge</a>
-        <a href="#Contact">Contact</a>
-    </nav>
     </header>
     <section id="hero-outer">
       <div id="hero-img"></div>
@@ -71,12 +76,7 @@
           period.
         </p>
       </div>
-      <div class="spino">
-        <img
-          class="pic"
-          src="./assets/images/spinosaurus-resize.jpg"
-          alt="giant spinosaurus dinosaur standing on a rocky mountain landscape"
-        />
+      <div>
       </div>
       <div class="paragraph" id="gigo">
         <h3>Giganotosaurus</h3>
@@ -91,12 +91,6 @@
         </p>
       </div>
       <div>
-        <img
-          class="pic"
-          id="gigopic"
-          src="./assets/images/gigonotasaurus-resize.jpg"
-          alt="large, giganotosaurus dinosaur walking through a rocky landscape"
-        />
       </div>
       <div class="paragraph">
         <h3>Tyrannosaurus Rex</h3>
@@ -113,12 +107,7 @@
         </p>
       </div>
 
-      <div id="trex">
-        <img
-          class="pic"
-          src="./assets/images/trex-resize.jpg"
-          alt="large t-rex dinosaur roaring at the sky at sunset"
-        />
+      <div></div>
       </div>
     </section>
     <section class="section">
@@ -141,12 +130,7 @@
           roamed what is now Argentina during the Late Cretaceous.
         </p>
       </div>
-      <div class="spino">
-        <img
-          class="pic"
-          src="./assets/images/argentinosaurus.jpg"
-          alt="argentinosaurus, long-neck dinosaur, walking across a prehistoric landscape"
-        />
+      <div>
       </div>
       <div class="paragraph" id="mamen">
         <h3>Mamenchisaurus</h3>
@@ -159,12 +143,7 @@
         </p>
       </div>
       <div id="mamenpic">
-        <img
-          class="pic"
-          src="./assets/images/mamenchisaurus-resize.jpg"
-          alt="four tall mamenchisaurus dinosaurs towering above the forest treeline looking to the sky at sunset"
-        />
-      </div>
+             </div>
       <div class="paragraph">
         <h3>Brachiosaurus</h3>
         <p>
@@ -175,12 +154,7 @@
           of the Late Jurassic period.
         </p>
       </div>
-      <div id="brachio">
-        <img
-          class="pic"
-          src="./assets/images/brachiosaurus.jpg"
-          alt="2 brachiosaurus long neck dinosaurs standing in a prehistoric landscape"
-        />
+      <div>
       </div>
     </section>
     <footer>
