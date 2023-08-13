@@ -3,11 +3,15 @@ header {
     color: rgb(245, 153, 16);
     font-size: 10vw;
     margin: 0 auto;
+    background-color: white;
+
 }
 
 body {
     font-family: 'pt-serif', sans-serif;
     min-height: 100vh;
+    background-color: rgb(1, 53, 1);
+
 }
 
 /* burger menu for mobile screens */
@@ -95,8 +99,8 @@ body {
 
 /*style the burger menu*/
 .navbar a.icon {
-    background: rgb(1, 53, 1);
-    color: whitesmoke;
+    background: white;
+    color: rgb(1, 53, 1);
     display: block;
     right: 0;
     top: 0;
@@ -111,6 +115,7 @@ body {
     height: 40vh;
     background: url('../images/hero.webp') no-repeat center center;
     background-size: cover;
+    background-color: white;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -118,7 +123,7 @@ body {
 
 #hero-outer {
     width: 100%;
-    height: 40vh;
+    height: 40%;
     overflow: hidden;
     position: relative;
 }
@@ -167,17 +172,18 @@ h3 {
     text-transform: uppercase;
     color: rgb(245, 153, 16);
     font-family: 'tapestry', sans-serif;
+    text-align: center;
 }
 
 .paragraph {
     height: 60%;
     width: 100%;
-    background-color: rgba(1, 53, 1, 0.767);
-    box-shadow: 8px 8px rgba(245, 153, 16, 0.178);
-    color: white;
+    border: 1px solid rgb(245, 153, 16);
+    color: rgb(1, 53, 1);
+    background-color: white;
     text-align: justify;
     margin: auto;
-
+    margin-top: 5%;
 }
 
 p {
@@ -185,15 +191,19 @@ p {
 }
 
 p>a {
-    color: white;
+    color: rgb(1, 53, 1);
 }
 
-.fossilPicture {
+.fossilImage {
     background: url('../images/fossil.webp') no-repeat center center;
     background-size: cover;
-    box-shadow: 8px 8px rgba(245, 153, 16, 0.178);
     width: 100%;
     height: 40vh;
+    margin-top: 5%;
+}
+
+.video {
+    margin-top: 5%;
 }
 
 /* to style footer */
@@ -210,14 +220,14 @@ footer li {
 }
 
 footer i {
-    color: rgb(1, 53, 1);
-    font-size: 200%;
-    letter-spacing: 50px;
+    color: white;
+    font-size: 50%;
+
 
 }
 
 footer div>i p {
-    color: rgb(1, 53, 1);
+    color: white;
     font-size: 16px;
     text-align: center;
 
@@ -226,14 +236,15 @@ footer div>i p {
 /* style heading divs on dinosaur.html page*/
 
 .topdiv {
-    height: 80px;
+    height: 40%;
     width: 80%;
     border: 10px solid rgba(245, 153, 16, 0.288);
     text-align: center;
     margin: 0 auto;
     position: relative;
-    padding-top: 20px;
-    margin-top: 19px;
+    margin-top: 5%;
+    background-color: white;
+    color: rgb(245, 153, 16);
 
 }
 
@@ -251,32 +262,72 @@ footer div>i p {
     border: 10px solid rgba(245, 153, 16, 0.288);
 }
 
-/* style and position the paragraph divs on dinosaur.html page*/
-.spino {
-    float: right;
-    height: 400px;
-    box-shadow: 10px 10px rgba(245, 153, 16, 0.288);
-    position: absolute;
-    top: 139px;
-    left: 680px;
+/* style and position the images on dinosaur.html page*/
+.spinoImage {
+    background: url('../images/spinosaurus.webp') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    margin-top: 5%;
 }
 
-#gigo {
-    float: right;
-    height: 400px;
-    box-shadow: 10px 10px rgba(245, 153, 16, 0.288);
-    position: absolute;
-    top: 559px;
-    left: 680px;
+.gigoImage {
+    background: url('../images/gigonotosaurus.webp') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    margin-top: 5%;
 }
 
-#mamen {
-    float: right;
-    height: 400px;
-    box-shadow: 10px 10px rgba(245, 153, 16, 0.288);
-    position: absolute;
-    top: 559px;
-    left: 680px;
+.trexImage {
+    background: url('../images/trex.webp') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    margin-top: 5%;
+
+}
+
+.argentinImage {
+    background: url('../images/argentinosaurus.webp') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    margin-top: 5%;
+}
+
+.mamenImage {
+    background: url('../images/mamenchisaurus.webp') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    margin-top: 5%;
+}
+
+.brachioImage {
+    background: url('../images/brachiosaurus.webp') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    margin-top: 5%;
+}
+/* style the checkbox for the quiz*/
+.correctAnswerCheckbox::before {
+    display: none;
+}
+
+.correctAnswerCheckbox::after {
+    background-color: green;
+    display: contents;
+}
+
+.wrongAnswerCheckbox::before {
+    display: none;
+}
+
+.wrongAnswerCheckbox::after {
+    background-color: red;
+    display: contents;
 }
 
 /* style and position pics on dinosaur.html page */
