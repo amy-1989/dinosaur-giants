@@ -165,7 +165,9 @@ body {
     position: relative;
 }
 
-
+h2 {
+    font-family: 'tapestry', sans-serif;
+}
 
 /*style and position paragraphs */
 h3 {
@@ -206,13 +208,15 @@ p>a {
     margin-top: 5%;
 }
 
+
 /* to style footer */
 footer {
-    height: 50px;
+    height: max-content;
     width: 100%;
     font-family: 'pt-serif', sans-serif;
     text-align: center;
     padding-top: 19px;
+    background-color: white;
 }
 
 footer li {
@@ -231,6 +235,20 @@ footer div>i p {
     font-size: 16px;
     text-align: center;
 
+}
+
+.form {
+    height: 40vh;
+    width: 40vh;
+    display: flex;
+    font-family: inherit;
+    color: rgb(1, 53, 1)
+}
+
+input[type="submit"] {
+    background-color: rgb(1, 53, 1);
+    color: white;
+    font-family: 'pt-serif', sans-serif;
 }
 
 /* style heading divs on dinosaur.html page*/
@@ -311,6 +329,7 @@ footer div>i p {
     height: 40vh;
     margin-top: 5%;
 }
+
 /* style the checkbox for the quiz*/
 .correctAnswerCheckbox::before {
     display: none;

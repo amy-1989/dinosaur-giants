@@ -64,6 +64,7 @@ This is a website designed for people of all ages, with an interest in learning 
    - iStock was used to source all the images used in the project.
 
 ## Testing
+
 ### Testing User Stories from the User Experience (UX) Section
 
 - First time visitor Goals
@@ -96,7 +97,7 @@ This is a website designed for people of all ages, with an interest in learning 
 
 ### GitHub Pages
 
-### Forking the GitHub Repository 
+### Forking the GitHub Repository
 
 ### Making a Local Clone
 
@@ -109,4 +110,3 @@ This is a website designed for people of all ages, with an interest in learning 
 ### Media
 
 ### Acknowledgements
-
