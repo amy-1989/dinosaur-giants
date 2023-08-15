@@ -14,12 +14,11 @@ body {
 
 }
 
-/* burger menu for mobile screens */
+/* burger menu & navbar for mobile screens */
 #logo {
     text-transform: uppercase;
     color: rgb(245, 153, 16);
     float: right;
-    /*letter-spacing: 4px;*/
     font-size: 70%;
 }
 
@@ -44,6 +43,7 @@ body {
     padding: 14px 16px;
     display: block;
     background-color: rgba(245, 153, 16, 0.288);
+    z-index: 1;
 }
 
 .navbar>a {
@@ -77,7 +77,6 @@ body {
     display: none;
     width: 100%;
     float: right;
-    z-index: 1;
 }
 
 .subnav-content a {
@@ -105,7 +104,6 @@ body {
     right: 0;
     top: 0;
     float: left;
-
 }
 
 /* hero-image */
@@ -207,7 +205,39 @@ p>a {
 .video {
     margin-top: 5%;
 }
+/* style the quiz section */
+.quizSection {
+    background-color: white;
+    border: 1px solid rgb(245, 153, 16);
+    margin-top: 10%;
+}
 
+.quizSection ul {
+    list-style-type: none;
+    text-align: justify;
+}
+
+.correct {
+    display: none;
+    background-color: green;
+    color: white;
+    width: max-content;
+}
+
+.wrong {
+    display: none;
+    background-color: red;
+    color: white;
+    width: max-content;
+}
+
+.checked input:checked+.correct {
+    display: block;
+}
+
+.checked input:checked+.wrong {
+    display: block;
+}
 
 /* to style footer */
 footer {
@@ -219,36 +249,73 @@ footer {
     background-color: white;
 }
 
-footer li {
+.socialIcons {
+    margin: 0 auto;
+    padding-right: 10%;
+}
+
+.socialIcons>li {
     display: inline;
 }
 
-footer i {
-    color: white;
-    font-size: 50%;
-
-
+.socialIcons i {
+    font-size: 200%;
+    color: rgb(1, 53, 1);
+    margin-top: 10%;
+    letter-spacing: 20px;
 }
 
-footer div>i p {
-    color: white;
-    font-size: 16px;
-    text-align: center;
-
+.copyright {
+    font-size: 100%;
+    color:rgb(1, 53, 1);
+    margin-top: 10%;
 }
 
+/*style form*/
 .form {
     height: 40vh;
     width: 40vh;
-    display: flex;
+    display: block;
+    text-align: center;
     font-family: inherit;
-    color: rgb(1, 53, 1)
+    color: rgb(1, 53, 1);
+    margin: 0 auto;
+
+}
+
+form {
+    display: inline-block;
+    margin: auto;
+    text-align: left;
+}
+
+.formLabel {
+    text-align: left;
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.formInput {
+    border: 1px solid rgb(1, 53, 1);
 }
 
 input[type="submit"] {
     background-color: rgb(1, 53, 1);
     color: white;
     font-family: 'pt-serif', sans-serif;
+    display: block;
+    margin-top: 5px;
+}
+
+fieldset {
+    border: 1px solid rgb(245, 153, 16);
+}
+/* style the submit newsletter response page */
+.submitSection {
+    background-color: white;
+    color: rgb(245, 153, 16);
+    text-align: center;
 }
 
 /* style heading divs on dinosaur.html page*/
@@ -329,29 +396,6 @@ input[type="submit"] {
     height: 40vh;
     margin-top: 5%;
 }
-
-/* style the checkbox for the quiz*/
-.correctAnswerCheckbox::before {
-    display: none;
-}
-
-.correctAnswerCheckbox::after {
-    background-color: green;
-    display: contents;
-}
-
-.wrongAnswerCheckbox::before {
-    display: none;
-}
-
-.wrongAnswerCheckbox::after {
-    background-color: red;
-    display: contents;
-}
-
-/* style and position pics on dinosaur.html page */
-
-
 
 @media screen and (min-width: 768px) {
 
