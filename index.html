@@ -24,26 +24,22 @@
     <title>Dinosaur Giants</title>
   </head>
   <body>
-    <header>
-      <a href="index.html"><h1 id="logo">Dinosaur Giants</h1></a>
-        <nav class="navbar">
-            <ul><nav id="navLinks">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><nav class="subnav">
+    <header >
+      <nav class="navbarDropdown"><button class="navbarButton"><h1>Dinosaur Giants <i class="fa-solid fa-square-caret-down"></i></h1></button>
+            <nav class="navbarContent">
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <nav class="subnav">
                  <a href="dinosaurs.html">  
                     <button class="subnavbtn"> Dinosaurs </button></a>
                     <nav class="subnav-content">
                         <a href="/dinosaurs.html#carnivores">Carnivores</a>
-                         <a href="/dinosaurs.html#herbivores">Herbivores</a>
+                        <a href="/dinosaurs.html#herbivores">Herbivores</a>
                     </nav>
-                    </nav>
-                </li>
-                <li><a href="knowledge.html">Test Your Knowledge</a></li>
-                <li><a href="#newsletter">Newsletter</a></li>
                 </nav>
-            </ul>
-         <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa-solid fa-bars"></i></a>
+                <a href="knowledge.html">Test Your Knowledge</a>
+                <a href="#newsletter">Newsletter</a>
+            </nav>
         </nav>
     </header>
     <section id="hero-outer">
@@ -52,8 +48,8 @@
         <h2>The largest creatures that ever lived</h2>
       </div>
     </section>
-    <section class="section gridContainer">
-        <div class="paragraph gridItem1">       
+    <section class="section">
+        <div class="paragraph">       
             <h3 id="about">What are dinosaurs?</h3>
             <p>
             Dinosaurs are ancient, prehistoric reptiles that lived during the
@@ -78,7 +74,7 @@
             largest creatures to walk the earth
             </p> 
         </div>
-        <div class="video gridItem2">             
+        <div class="video">             
             <div class='embed-container'>
                 <iframe src='https://www.youtube.com/embed/e5BFR-E-ae0?hl=en&amp;cc_lang_pref=en&amp;cc_load_policy=1' frameborder='0'
                     allowfullscreen>
@@ -86,7 +82,7 @@
             </div>
         </div>
 
-        <div class="paragraph gridItem3">
+        <div class="paragraph">
             <h3>How do we know about dinosaurs?</h3>
             <p>
             Scientists who study dinosaurs are called palaeontologists.
@@ -101,11 +97,14 @@
             food it ate.
             </p>
         </div>        
-        <div class="fossilImage gridItem4">
-            <p class="caption">Paleontologist digs for fossils
-            </p>
+        <div class="container">
+            <div class="fossilImage">
+            </div>
+            <div><p class="caption">Paleontologist digs for fossils
+             </p>
+            </div>
         </div>
-        <div class="paragraph gridItem5" id="extinction">
+        <div class="paragraph" id="extinction">
             <h3>What happened to the dinosaurs?</h3>
             <p>
             Dinosaurs went extinct around 65 million years ago. At that time a
@@ -121,9 +120,12 @@
             time.
             </p>
         </div>
-        <div class="extinctImage gridItem6">
-            <p class="caption">Extinction
+        <div class="container">
+            <div class="extinctImage">
+            </div>
+            <div class="caption"><p>Extinction
             </p>
+            </div>
         </div>
     </section>
     <footer>
