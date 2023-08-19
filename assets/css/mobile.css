@@ -1,0 +1,26 @@
+@media screen and (max-width: 1024px){
+    .burger + label {
+        display: block;
+        margin: 0;
+        font-size: 4em;
+        color: rgb( 1, 53, 10);
+        text-align: center;
+        background-color: white;
+        cursor: pointer;
+        }
+    
+    label {
+        margin: 0 auto;
+    }
+    .navContent {
+        display: none;
+    }
+    .burger:checked ~ .navContent {
+        display: block;
+        margin: 0;
+        transform: translate(3em , 0);
+        z-index: 100;
+            }
+    }
+    
+

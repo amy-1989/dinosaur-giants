@@ -1,0 +1,26 @@
+@media screen and (min-width: 1025px) {
+    .navBar {
+        float: right;
+    }
+
+    .navContent {
+        display: inline-flex;
+    }
+
+    .navLinks {
+        display: inline-flex;
+        margin: 0;
+        width: max-content;
+        padding-right: 1em;
+        padding-top: 1em;
+    }
+
+    .logo {
+        float: left;
+        font-size: 1em;
+        padding-left: 1em;
+        padding-top: .5em;
+        letter-spacing: 2px;
+    }
+
+}

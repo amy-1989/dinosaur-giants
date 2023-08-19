@@ -12,7 +12,10 @@
       name="keywords"
       content="dinosaurs, mesozoic, tyrannosaurus, carnivores, herbivores, sauropods, titanosaurs, jurassic, cretaceous, triassic"
     />
-    <link rel="stylesheet" href="assets/CSS/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/mobile.css"/>
+    <link rel="stylesheet" href="assets/css/tablet.css" />
+    <link rel="stylesheet" href="assets/css/desktop.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,18 +23,21 @@
       rel="stylesheet"
     />
     <script src="https://kit.fontawesome.com/41aa291a02.js" crossorigin="anonymous"></script>
-    <script src="./assets/js/script.js"></script>
     <title>Dinosaur Giants</title>
   </head>
   <body>
-    <header >
-      <nav class="navbar">
-            <ul>
-                <li><a href="index.html"><h1>Dinosaur Giants</h1></a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="dinosaurs.html">Dinosaurs</a></li>
-                <li><a href="knowledge.html">Fun Quiz</a></li>
-                <li><a href="#newsletter">Newsletter</a></li>
+    <header>
+      <a class="logo" href="index.html">
+            <h1>Dinosaur Giants</h1>
+      </a>
+      <nav class="navBar">
+        <input id="burger" type="checkbox" class="burger">
+        <label for="burger"><i class="fa-solid fa-bars"></i></label>
+            <ul class="navContent">
+                <li><a class="navLinks"href="#about">About</a></li>
+                <li><a class="navLinks"href="dinosaurs.html">Dinosaurs</a></li>
+                <li><a class="navLinks"href="knowledge.html">Fun Quiz</a></li>
+                <li><a class="navLinks"href="#newsletter">Newsletter</a></li>
             </ul>
       </nav>
     </header>
