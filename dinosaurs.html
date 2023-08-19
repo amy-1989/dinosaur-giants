@@ -30,21 +30,23 @@
   </head>
   <body>
     <header>
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html">
-                    <h1>Dinosaur Giants</h1>
-                </a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="dinosaurs.html">Dinosaurs</a></li>
-            <li><a href="knowledge.html">Fun Quiz</a></li>
-            <li><a href="#newsletter">Newsletter</a></li>
+    <a class="logo" href="index.html">
+        <h1>Dinosaur Giants</h1>
+    </a>
+    <nav class="navBar">
+        <input id="burger" type="checkbox" class="burger">
+        <label for="burger"><i class="fa-solid fa-bars"></i></label>
+        <ul class="navContent">
+            <li><a class="navLinks" href="index.html#about">About</a></li>
+            <li><a class="navLinks" href="dinosaurs.html">Dinosaurs</a></li>
+            <li><a class="navLinks" href="knowledge.html">Fun Quiz</a></li>
+            <li><a class="navLinks" href="#newsletter">Newsletter</a></li>
         </ul>
     </nav>    
 </header>
-    <section id="hero-outer">
-      <div id="hero-img"></div>
-      <div id="cover-text">
+    <section class="heroOuter">
+      <div class="heroImg"></div>
+      <div class="coverText">
         <h2>The largest creatures that ever lived</h2>
       </div>
     </section>
@@ -55,7 +57,8 @@
           Meat-eating dinosaurs
         </p>
       </div>
-      <div class="paragraph">
+    <div class="flexContainer">
+      <div class="paragraph flexChildren">
         <h3>Spinosaurus</h3>
         <p>
           The first Spinosaurus fossil was destroyed during World War II. The
@@ -67,9 +70,12 @@
           period.
         </p>
       </div>
-      <div class="container"><div  class="spinoImage"></div><p class="caption">Spinosaurus</p>
-      </div>
-      <div class="paragraph">
+      <div class="container flexChildren">
+        <div  class="spinoImage"></div>
+        <div><p class="caption">Spinosaurus</p>
+      </div></div>
+    <div class="flexContainer">
+      <div class="paragraph flexChildren">
         <h3>Giganotosaurus</h3>
         <p>
           Giganotosaurus is one of the largest predators known to have existed.
@@ -81,9 +87,13 @@
           the Early Cretaceous period.
         </p>
       </div>
-      <div class="container"><div class="gigoImage"></div><p class="caption">Giganotosaurus</p>
-      </div>
-      <div class="paragraph">
+      <div class="container flexChildren">
+      <div class="gigoImage"></div>
+      <p class="caption">Giganotosaurus</p>
+    </div>
+    </div>
+    <div class="flexContainer">
+      <div class="paragraph flexChildren">
         <h3>Tyrannosaurus Rex</h3>
         <p>
           Tyrannosaurus Rex is probably the most famous of all the dinosaurs.
@@ -97,17 +107,20 @@
           roamed the lands of North America during the Late Cretaceous period.
         </p>
       </div>
-      <div class="container"><div  class="trexImage"></div><p class="caption">Tyrannosaurus Rex</div>
+      <div class="container flexChildren"><div class="trexImage"></div><p class="caption">Tyrannosaurus Rex</div>
       </div>
+    </div>
+    </div>
     </section>
-    <section class="section">
+  <section class="section">
       <div class="topdiv">
         <h2 id="herbivores">Herbivores</h2>
         <p>
           Plant-eating dinosaurs
         </p>
       </div>
-      <div class="paragraph">
+      <div class="flexContainer">
+      <div class="paragraph flexChildren">
         <h3>Argentinosaurus</h3>
         <p>
           Argentinosaurus was a gigantic dinosaur. A complete skeleton of this
@@ -120,9 +133,10 @@
           roamed what is now Argentina during the Late Cretaceous.
         </p>
       </div>
-      <div class="container"><div  class="argentinImage"></div><p class="caption">Argentinosaurus</p>
-      </div>
-      <div class="paragraph">
+      <div class="container flexChildren"><div  class="argentinImage"></div><p class="caption">Argentinosaurus</p>
+      </div></div>
+      <div class="flexContainer">
+      <div class="paragraph flexChildren">
         <h3>Mamenchisaurus</h3>
         <p>
           Mamenchisaurus had a very long neck and a tiny head. It fed on a diet
@@ -132,9 +146,10 @@
           the Late Jurassic period.
         </p>
       </div>
-      <div class="container"><div class="mamenImage"></div><p class="caption">Mamenchisaurus</p>
-             </div>
-      <div class="paragraph">
+      <div class="container flexChildren"><div class="mamenImage"></div><p class="caption">Mamenchisaurus</p>
+             </div></div>
+     <div class="flexContainer">
+      <div class="paragraph flexChildren">
         <h3>Brachiosaurus</h3>
         <p>
           Brachiosaurus is one of the most famous herbivore dinosaurs. It had a
@@ -144,9 +159,9 @@
           of the Late Jurassic period.
         </p>
       </div>
-     <div class="container"> <div class="brachioImage"></div><p class="caption">Brachiosaurus</p>
-      </div>
-    </section>
+      <div class="container flexChildren"><div class="brachioImage"></div><p class="caption">Brachiosaurus</p>
+      </div></div>
+  </section>
     <footer>
         <div class="form" id="newsletter">
     

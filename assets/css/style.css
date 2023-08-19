@@ -50,7 +50,7 @@ body {
 }
 
 .navLinks {
-    display:block;
+    display: block;
     cursor: pointer;
     text-align: center;
     font-size: 2em;
@@ -59,9 +59,9 @@ body {
     padding-bottom: 30%;
 }
 
- /* hero-image */
+/* hero-image */
 
-#hero-img {
+.heroImg {
     max-width: 100vw;
     height: 40vh;
     background: url('../images/hero.webp') no-repeat center center;
@@ -72,14 +72,14 @@ body {
     animation-fill-mode: forwards;
 }
 
-#hero-outer {
+.heroOuter {
     max-width: 100vw;
     height: 40vh;
     overflow: hidden;
     position: relative;
 }
 
-#cover-text {
+.coverText {
     font-size: 70%;
     text-transform: uppercase;
     width: 80vw;
@@ -89,7 +89,7 @@ body {
     position: relative;
 }
 
-#cover-text h2 {
+.coverText h2 {
     color: rgb(245, 153, 16);
     background-color: rgba(1, 53, 1, 0.541);
     text-align: center;
@@ -112,6 +112,7 @@ body {
 /* main section styling */
 .section {
     position: relative;
+    background-color: white;
 }
 
 h2 {
@@ -127,27 +128,60 @@ h3 {
     font-size: 1em;
 }
 
+.flexContainer {
+    display: flex;
+    max-width: 100vw;
+}
+
 .paragraph {
-    height: 60%;
-    width: 100%;
-    border: 1px solid rgb(245, 153, 16);
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2),
+        0 3px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
     color: rgb(1, 53, 1);
     background-color: white;
     text-align: justify;
-    margin: auto;
-    margin-top: 5%;
 }
 
+.video {
+    margin: auto;
+    background-color: white;
+    max-height: 100%;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2),
+        0 3px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.embedContainer {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embedContainer iframe,
+.embedContainer object,
+.embedContainer embed {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
 
 p>a {
     color: rgb(1, 53, 1);
 }
 
 .container {
-    max-width: 100vw;
-    height: 40vh;
-    margin-top: 5%;
-    position: relative;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2),
+        0 3px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: white;
+}
+
+.container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .fossilImage {
@@ -155,19 +189,6 @@ p>a {
     background-size: cover;
     max-width: 100vw;
     height: 40vh;
-    margin-top: 5%;
-}
-
-.caption {
-    font-size: .75em;
-    text-transform: uppercase;
-    width: 60vw;
-    height: max-content;
-    margin: 0 auto;
-    background-color: white;
-    text-align: center;
-    position: relative;
-    z-index: 1;
 }
 
 .extinctImage {
@@ -177,26 +198,10 @@ p>a {
     height: 40vh;
 }
 
-.embed-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-}
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-    position: absolute;
-    top: 0;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-}
-
-.video {
-    margin-top: 5%;
+.caption {
+    color: rgb(1, 53, 1);
+    font-family: inherit;
+    text-align: center;
 }
 
 /* style the quiz section */
@@ -364,7 +369,6 @@ fieldset {
     background-size: cover;
     max-width: 100vw;
     height: 40vh;
-    margin-top: 5%;
 }
 
 .gigoImage {
@@ -372,7 +376,6 @@ fieldset {
     background-size: cover;
     max-width: 100vw;
     height: 40vh;
-    margin-top: 5%;
 }
 
 .trexImage {
@@ -380,7 +383,6 @@ fieldset {
     background-size: cover;
     max-width: 100vw;
     height: 40vh;
-    margin-top: 5%;
 
 }
 
@@ -406,113 +408,4 @@ fieldset {
     max-width: 100vw;
     height: 40vh;
     margin-top: 5%;
-}
-
-@media screen and (min-width: 768px) {
-    .navbar h1 {
-        font-size: 2em;
-    }
-
-    .navbar a {
-        font-size: 1.5em;
-    }
-
-    #cover-text {
-        width: 100vw;
-        margin: 0;
-    }
-
-    #cover-text h2 {
-        width: max-content;
-    }
-
-    #cover-text {
-        font-size: 130%;
-    }
-
-    h3 {
-        font-size: 2em;
-    }
-
-    p {
-        font-size: 1.25em;
-    }
-
-    .video {
-        max-width: 100vw;
-        height: auto;
-    }
-
-    .form {
-        height: max-content;
-    }
-
-    .formLabel,
-    .formInput,
-    .socialIcons,
-    .copyright,
-    .topdiv,
-    input[type="submit"] {
-        font-size: 1.25em;
-    }
-
-    .caption {
-        font-size: 1.25em;
-    }
-
-    .quizSection ol {
-        font-size: 1.25em;
-    }
-
-}
-
-@media screen and (min-width: 1025px) {
-    body {
-        margin: 1.5%;
-    }
-
-    #hero-outer {
-        height: 40vw;
-    }
-
-    #hero-img {
-        height: 40vw;
-    }
-
-    .navbar h1 {
-        font-size: 2.5em;
-    }
-
-    .navbar a {
-        font-size: 2em;
-    }
-
-    .paragraph {
-        width: 30vw;
-        height: fit-content;
-    }
-
-    .container {
-        width: 30vw;
-        height: auto;
-    }
-
-    .video {
-        width: 30vw;
-        height: auto;
-    }
-
-    .caption {
-        width: fit-content;
-    }
-
-    .form {
-        float: left;
-    }
-
-    .socialIcons {
-        float: right;
-        font-size: 1.5em;
-        padding-right: 5%;
-    }
 }

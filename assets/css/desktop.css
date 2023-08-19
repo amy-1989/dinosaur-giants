@@ -22,5 +22,21 @@
         padding-top: .5em;
         letter-spacing: 2px;
     }
-
+    .heroImg {
+        height: 60vh;
+    }
+.heroOuter {
+    height: 60vh;
+}
+.covertext{
+    font-size: 200%;
+}
+.flexChildren {
+    flex-basis: 30%;
+    flex: 1;
+    justify-content: space-between;
+    background-color: white;
+    padding: 5%;
+     margin: 5%;
+}
 }
