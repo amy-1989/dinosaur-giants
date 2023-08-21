@@ -186,14 +186,14 @@ p>a {
 
 .fossilImage {
     background: url('../images/fossil.webp') no-repeat center center;
-    background-size: cover;
+    background-size: contain;
     max-width: 100vw;
     height: 40vh;
 }
 
 .extinctImage {
     background: url('../images/extinction.webp') no-repeat center center;
-    background-size: cover;
+    background-size: contain;
     max-width: 100vw;
     height: 40vh;
 }
@@ -207,10 +207,7 @@ p>a {
 /* style the quiz section */
 .quizSection {
     background-color: white;
-    border: 1px solid rgb(245, 153, 16);
-    margin-top: 10%;
-
-}
+  }
 
 .quizSection ol {
     font-size: 1em;
@@ -254,37 +251,54 @@ p>a {
 
 /* to style footer */
 footer {
-    height: max-content;
-    width: 100%;
     font-family: 'pt-serif', sans-serif;
     text-align: center;
-    padding-top: 19px;
     background-color: white;
     bottom: 0;
-    position: relative;
-}
-
-.socialIcons {
-    margin: 0 auto;
-    padding: 0;
-}
-
-.socialIcons>li {
-    display: inline;
-}
-
-.socialIcons i {
-    font-size: 200%;
-    color: rgb(1, 53, 1);
-    margin-top: 10%;
-    letter-spacing: 20px;
+    border-top: 1px solid rgb(245, 153, 16);
+    background: url('../images/footerbackground.webp') no-repeat center center;
+    background-size: 100vw 100vh;
+    width: auto;
 }
 
 .copyright {
     font-size: 100%;
-    color: rgb(1, 53, 1);
     margin-top: 10%;
 }
+
+.socialIcons {
+    color: white;
+    text-align: center;
+}
+
+.socialIcons i {
+    color: white;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.socialIcons ul {
+    display: inline-flex;
+    list-style-type: none;
+    font-size: 2em;
+    color: white;
+    margin: 0 auto;
+    margin-right: 20%;
+}
+
+.socialIcons ul li {
+    margin-right: 30%;
+    padding-right: 20%;
+    padding-top: 20%;
+    margin: 0 auto;
+}
+ .form {
+     background-color: rgba(1, 53, 1, 0.288);
+ }
+
+ .socialIcons {
+     background-color: rgba(1, 53, 1, 0.288);
+ }
 
 /*style form*/
 .form {
@@ -295,7 +309,6 @@ footer {
     font-family: inherit;
     color: rgb(1, 53, 1);
     margin: 0 auto;
-
 }
 
 form {
@@ -307,12 +320,16 @@ form {
 .formLabel {
     text-align: left;
     display: block;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    color: white;
 }
 
 .formInput {
     border: 1px solid rgb(1, 53, 1);
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 input[type="submit"] {
@@ -320,12 +337,28 @@ input[type="submit"] {
     color: white;
     font-family: 'pt-serif', sans-serif;
     display: block;
-    margin-top: 5px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0 auto;
+}
+
+input[type="email"] {
+    margin-bottom: 5%;
 }
 
 fieldset {
     border: 1px solid rgb(245, 153, 16);
 }
+
+legend h3 {
+    color: white;
+}
+
+fieldset p {
+    color: white;
+}
+
+
 
 /* style the submit newsletter response page */
 .submitSection {
@@ -343,7 +376,6 @@ fieldset {
     text-align: center;
     margin: 0 auto;
     position: relative;
-    margin-top: 10%;
     background-color: white;
     color: rgb(245, 153, 16);
 
@@ -366,21 +398,21 @@ fieldset {
 /* style and position the images on dinosaur.html page*/
 .spinoImage {
     background: url('../images/spinosaurus.webp') no-repeat center center;
-    background-size: cover;
+    background-size: contain;
     max-width: 100vw;
     height: 40vh;
 }
 
 .gigoImage {
     background: url('../images/gigonotosaurus.webp') no-repeat center center;
-    background-size: cover;
+    background-size: contain;
     max-width: 100vw;
     height: 40vh;
 }
 
 .trexImage {
     background: url('../images/trex.webp') no-repeat center center;
-    background-size: cover;
+    background-size: contain;
     max-width: 100vw;
     height: 40vh;
 
@@ -388,7 +420,7 @@ fieldset {
 
 .argentinImage {
     background: url('../images/argentinosaurus.webp') no-repeat center center;
-    background-size: cover;
+    background-size: contain;
     max-width: 100vw;
     height: 40vh;
     margin-top: 5%;
@@ -396,7 +428,7 @@ fieldset {
 
 .mamenImage {
     background: url('../images/mamenchisaurus.webp') no-repeat center center;
-    background-size: cover;
+    background-size: contain;
     max-width: 100vw;
     height: 40vh;
     margin-top: 5%;
@@ -404,7 +436,7 @@ fieldset {
 
 .brachioImage {
     background: url('../images/brachiosaurus.webp') no-repeat center center;
-    background-size: cover;
+    background-size: contain;
     max-width: 100vw;
     height: 40vh;
     margin-top: 5%;

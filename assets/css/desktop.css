@@ -25,18 +25,38 @@
     .heroImg {
         height: 60vh;
     }
-.heroOuter {
+    .heroOuter {
     height: 60vh;
-}
-.covertext{
+    }
+    .covertext{
     font-size: 200%;
-}
-.flexChildren {
+    }
+    .flexContainer {
+        justify-content: space-between;
+        /*align-items: center;*/
+    }
+
+    .flexChildren {
     flex-basis: 30%;
     flex: 1;
-    justify-content: space-between;
     background-color: white;
     padding: 5%;
-     margin: 5%;
-}
+    margin: 5%;     
+    }
+    
+    .form {
+        background-color: rgba(1, 53, 1, 0.288);
+    }
+    .socialIcons {
+        background-color: rgba(1, 53, 1, 0.288);
+    }
+    .topdiv {
+        font-size: 1.5em;
+    }
+    .quizSection {
+        font-size: 1.25em;
+    }
+    .quizSection li {
+        padding: 1.5%;
+    }
 }

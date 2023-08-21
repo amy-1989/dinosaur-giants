@@ -39,16 +39,16 @@
         <input id="burger" type="checkbox" class="burger">
         <label for="burger"><i class="fa-solid fa-bars"></i></label>
         <ul class="navContent">
-            <li><a class="navLinks" href="#about">About</a></li>
+            <li><a class="navLinks" href="index.html#about">About</a></li>
             <li><a class="navLinks" href="dinosaurs.html">Dinosaurs</a></li>
             <li><a class="navLinks" href="knowledge.html">Fun Quiz</a></li>
             <li><a class="navLinks" href="#newsletter">Newsletter</a></li>
         </ul>
     </nav>
     </header>
-    <section id="hero-outer">
-      <div id="hero-img"></div>
-      <div id="cover-text">
+    <section class="heroOuter">
+      <div class="heroImg"></div>
+      <div class="coverText">
         <h2>The largest creatures that ever lived</h2>
       </div>
     </section>
@@ -189,37 +189,49 @@
       </div>
     </section>
     <footer>
-        <div class="form" id="newsletter">
-               
-                <form action= "submit.html" method=GET target="_blank" autocomplete="on">
-                 <fieldset><legend><h3>Sign up to our Newsletter</h3></legend><p>New dino facts sent weekly to your inbox</p>
-                <label class="formLabel" for="nameForm">Name</label>
-                <input class="formInput" type="text" id="nameForm" name="full_name" placeholder="Your Name" required>
-                <label class="formLabel" for="emailForm"> Email Address</label>
-                <input class="formInput" type="email" id="emailForm" name="email_address" placeholder="Your Email Address" required>
-                <label for="buttonForm"></label>
-                <input type="submit" id="buttonForm" value="Subscribe">
+    <div class="flexContainer">
+        <div class="form flexChildren" id="newsletter">
+    
+            <form action="submit.html" method=GET target="_blank" autocomplete="on">
+                <fieldset>
+                    <legend>
+                        <h3>Sign up to our Newsletter</h3>
+                    </legend>
+                    <p>New dino facts sent weekly to your inbox</p>
+                    <label class="formLabel" for="nameForm">Name</label>
+                    <input class="formInput" type="text" id="nameForm" name="full_name" placeholder="Your Name" required>
+                    <label class="formLabel" for="emailForm"> Email Address</label>
+                    <input class="formInput" type="email" id="emailForm" name="email_address"
+                        placeholder="Your Email Address" required>
+                    <label class="formLabel" for="buttonForm"></label>
+                    <input type="submit" id="buttonForm" value="Subscribe">
                 </fieldset>
             </form>
         </div>
-      <ul class="socialIcons">
-        <li>
-          <a rel="nofollow" target="_blank" href="https://www.youtube.com/"
-            ><i class="fa-brands fa-youtube"></i
-          ></a>
-        </li>
-        <li>
-          <a rel="nofollow" target="_blank" href="https://www.facebook.com/"
-            ><i class="fa-brands fa-square-facebook"></i
-          ></a>
-        </li>
-        <li>
-          <a rel="nofollow" target="_blank" href="https://www.twitter.com/"
-            ><i class="fa-brands fa-square-x-twitter"></i
-          ></a>
-        </li>
-      </ul>
-     <div class="copyright"><i class="fa-regular fa-copyright"> The Dinosaur Company 2023</i></p></div>
-    </footer>
+        <div class="flexChildren socialIcons">
+            <address>Contact Us: 22 Cretaceous Lane</address>
+            <address> Mesozoic Avenue</address>
+            <address> Dublin</address>
+            <address>Ireland</address>
+            <ul>
+                <li>
+                    <a rel="nofollow" target="_blank" href="https://www.youtube.com/"><i
+                            class="fa-brands fa-youtube"></i></a>
+                </li>
+                <li>
+                    <a rel="nofollow" target="_blank" href="https://www.facebook.com/"><i
+                            class="fa-brands fa-square-facebook"></i></a>
+                </li>
+                <li>
+                    <a rel="nofollow" target="_blank" href="https://www.twitter.com/"><i
+                            class="fa-brands fa-square-x-twitter"></i></a>
+                </li>
+            </ul>
+    
+            <div>
+                <p class="copyright"></p><i class="fa-regular fa-copyright"> The Dinosaur Company 2023</i></p>
+            </div>
+        </div>
+          </footer>
   </body>
 </html>
