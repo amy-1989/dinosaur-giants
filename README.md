@@ -64,43 +64,120 @@ This is a website designed for people of all ages, with an interest in learning 
    - iStock was used to source all the images used in the project.
 
 ## Testing
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
+- W3C Markup Validator ![Image of Markup Validation result](./assets/images/html_check.png)
+- W3C CSS Validator ![Image of CSS Validator result](./assets/images/css_validation.png)
 
 ### Testing User Stories from the User Experience (UX) Section
 
 - First time visitor Goals
+
   - As a first time visitor I want to learn about dinosaurs.
-  
+
+    - Upon entering the site, users are greeted with an easily readable navigation bar with a clearly labelled 'About' section which will bring users directly to the first piece of information about dinosaurs. 
+    - This section is also conveniently located right below the hero image, so users can easily find the information without having to click the 'About' link.
+    - The hero image was selected so users will know instantly that the website is about dinosaurs.
+
   - As a first time visitor I want to learn what dinosaurs are.
+
+     - The landing page is divided into three main sections below the hero image. Each section clearly provides more detailed information about dinosaurs in a logical sequence.
+    - There is also a short informational video about dinosaurs embedded on the landing page right below the hero image.
   - As a first time visitor I want to learn what kinds of dinosaurs are there.
+    - The landing page has been designed with three paragraph sections detailing information about the dinosaurs.
+    - There is a clearly labelled page link'Dinosaurs' in the navigation bar which allows users to go straight to more information about the different kinds of dinosaur.
+    - There are links provided in the first paragraph below the hero image highlighted with a text underline, prompting users to click to find more detailed information. 
+    - There is a link in the navigation bar to a 'Fun Quiz' which users can interact with and test what they have learned.
+
   - As a first time visitor I want to easily navigate through the website to find content.
+
+    - The site has been designed with ease of use in mind. At the top of every page there is a clearly labelled navigation bar with links to pages and sections clearly visible and accurately labelled.
+    - After submitting the newsletter form, users are taken to a thank you page which opens in a new tab. This page also has the navigation bar across the top, providing users with the option of navigating from that page, rather than having to close the tab.
+    - There are links provided in the about section to allow users to navigate to other sections without having to scroll back to the top of the page.
+
   - As a first time visitor I want to be able to see if the content and facts presented can be trusted. Are there any references or links to support the content.
+
+    - There is an embedded youtube video provided on the landing page, made by the National Geographic, which supports the written content provided.
+
   - As a first time visitor I want to see have they any social media presence.
-  - As a first time visitor I want to see have they a contact page.
+
+    - There are links to Facebook, Twitter & Youtube provided in the footer at the end of each page.
+    - These links will all open in a new tab so users can easily find their way back to our site.
+
   
   - Returning Visitor Goals
+
     - As a returning visitor I want to find more information about dinosaurs.
-    - As a returning visitor I want to find links to more facts about dinosaurs.
-    - As a returning visitor I want to find detailed information about dinosaurs. What happened to them? What did they eat? How big were they?
-    - As a returning visitor I want to find social media links to follow up for more information.
+
+      - Upon arrival to the site, users will find a navigation bar with a clearly labelled 'Dinosaurs' page link.
+      - This link will bring visitors to a page dedicated to more in-depth detail about dinosaurs than the landing page.
+      - The page is broken into two clearly defined sections, depending which kind of dinosaur the user wishes to know more about.
+      - There are multiple images provided to support the content.
+
     - As a returning visitor I want to find contact information to ask any questions.
-    - As a returning visitor I want to see is there a newsletter I can join or a blog I can follow.
+
+      - There are social media links to Facebook, Youtube & Twitter in the footer at the end of each page so users can get in touch if they wish.
+    
   
   - Frequent Visitor Goals
-    - As a frequent visitor I want to sign up to a newsletter so I can be kept abreast of any updates.
-    - s a frequent visitor I want to check if there are any new dinosaur facts.
+
+    - As a returning visitor I want to see is there a newsletter I can join or a blog I can follow.
+
+      - In the footer at the end of each page there is a sign up form for users to register if they wish to join our weekly newsletter. 
+      - There is also a clearly labelled 'Newsletter' link provided in the navigation bar at the top of each page.
+
     - As a frequent visitor I want to check if there are any new content to interact with.
+
+      - By now the user is comfortable with our site and can easily follow any links provided to updated information in the future.
+
+    - As a frequent visitor I want to check if there are any new quiz questions.
+
+      - By now the user is familiar with our site and can easily navigate straight to the quiz page to check for any updates.
 
 ### Further Testing
 
+- The website was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox browsers.
+- The website was viewed on a variety of devices such as Desktop, Ipad, Iphone and Galaxy phones.
+- A number of testing was done to ensure that all links were working.
+- Friends and family were asked to review the site on their own devices, and point out any bugs or issues.
+- A peer review was undertaken among fellow CI students.
+- The website was continuously tested throughout development using Chrome DevTools.
+- The website was tested for Desktop and Mobile performance using Chrome DevTools Lighthouse.
+
 ### Known Bugs
+
+- On some mobile devices the navigation bar heading veers to the right. 
 
 ## Deployment
 
 ### GitHub Pages
 
+The project was deployed to GitHub Pages using the following steps...
+
+Log in to GitHub and locate the GitHub Repository
+At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+Scroll down the Settings page until you locate the "GitHub Pages" Section.
+Under "Source", click the dropdown called "None" and select "Main", then "Save".
+The page will automatically refresh.
+The now published site link  will be at the top of the "GitHub Pages" section.
+
 ### Forking the GitHub Repository
 
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+Log in to GitHub and locate the GitHub Repository
+At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+You should now have a copy of the original repository in your GitHub account.
+
 ### Making a Local Clone
+
+Log in to GitHub and locate the GitHub Repository
+Under the repository name, click "Clone or download".
+To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+Open Git Bash
+Change the current working directory to the location where you want the cloned directory to be made.
+Type git clone, and then paste the URL you copied in Step 3.
+Press Enter. Your local clone will be created.
+
 
 ## Credits
 
@@ -108,6 +185,14 @@ This is a website designed for people of all ages, with an interest in learning 
 
 ### Content
 
+- All content was written by the developer.
+- Various dinosaur facts were taken from the following books:
+
+
 ### Media
+
+- Copyright of the youtube video belongs to National Geographic.
+- Hero Image and main images provided throughout the site were taken from iStock.
+- Favicon image was taken from pngkey.
 
 ### Acknowledgements
