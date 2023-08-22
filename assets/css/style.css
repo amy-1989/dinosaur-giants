@@ -246,12 +246,14 @@ p>a {
     color: white;
     width: max-content;
 }
-
-.checked input:checked+.correct {
+.checked {
+    cursor: pointer;
+}
+input[type="radio"]:checked~.correct {
     display: block;
 }
 
-.checked input:checked+.wrong {
+input[type="radio"]:checked~.wrong {
     display: block;
 }
 

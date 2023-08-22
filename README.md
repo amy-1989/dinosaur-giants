@@ -69,6 +69,7 @@ This is a website designed for people of all ages, with an interest in learning 
 
 - First time visitor Goals
   - As a first time visitor I want to learn about dinosaurs.
+  
   - As a first time visitor I want to learn what dinosaurs are.
   - As a first time visitor I want to learn what kinds of dinosaurs are there.
   - As a first time visitor I want to easily navigate through the website to find content.

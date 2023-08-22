@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Dinosaur Giants website about the largest dinosaurs of the Mesozoic Era">
+      content="Dinosaur Giants website about the largest dinosaurs of the Mesozoic Era"
+    />
     <meta
       name="keywords"
-      content="dinosaurs, mesozoic, tyrannosaurus, carnivores, herbivores, sauropods, titanosaurs, jurassic, cretaceous, triassic">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/media_queries.css">
-    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+      content="dinosaurs, mesozoic, tyrannosaurus, carnivores, herbivores, sauropods, titanosaurs, jurassic, cretaceous, triassic"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/media_queries.css" />
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
     <script
       src="https://kit.fontawesome.com/41aa291a02.js"
       crossorigin="anonymous"
@@ -36,168 +38,156 @@
       </nav>
     </header>
     <main>
-    <section class="heroOuter">
-      <div class="heroImg"></div>
-      <div class="coverText">
-        <h2>The largest creatures that ever lived</h2>
-      </div>
-    </section>
-    <section class="section">
-      <div class="topdiv">
-        <h2>Test Your Knowledge</h2>
-        <p>How well do you know dinos?</p>
-      </div>
-      <div class="quizSection">
-        <ol>
-          <li>
-            <p>What is a carnivore dinosaur?</p>
-            <ul>
-              <li>
-                <label class="checked">
-                  <input type="radio" name="one" /> Plant-eating dinosaur
+      <section class="heroOuter">
+        <div class="heroImg"></div>
+        <div class="coverText">
+          <h2>The largest creatures that ever lived</h2>
+        </div>
+      </section>
+      <section class="section">
+        <div class="topdiv">
+          <h2>Test Your Knowledge</h2>
+          <p>How well do you know dinos?</p>
+        </div>
+        <div class="quizSection">
+          <ol>
+            <li>
+              <p>What is a carnivore dinosaur?</p>
+              <ul>
+                <li>
+                    <input type="radio" name="one" id="plant"/>
+                    <label class="checked" for="plant">Plant-eating dinosaur</label>
+                    <div class="wrong">
+                      <p>Wrong! Please try again!</p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="one" id="meat"/>
+                    <label class="checked" for="meat">Meat-eating dinosaur</label>
+                    <div class="correct">
+                      <p>Correct!</p>
+                    </div>
+                </li>
+                <li>
+                  <input type="radio" name="one" id="none" /> 
+                  <label class="checked" for="none">None of the above</label>
+                    <div class="wrong">
+                      <p>Wrong! Please try again!</p>
+                    </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p>How tall was Spinosaurus?</p>
+              <ul>
+                <li>
+                   <input type="radio" name="two" id="house" /> 
+                   <label class="checked" for="house">As tall as a two-storey house</label>
+                    <div class="correct">
+                      <p>Correct!</p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="two" id="bus" /> 
+                    <label class="checked" for="bus">As tall as bus</label>
+                    <div class="wrong">
+                      <p>Wrong! Please try again!</p>
+                    </div>              
+                </li>
+                <li>
+                  <input type="radio" name="two" id="elephant" /> 
+                  <label class="checked" for="elephant">As tall as an elephant</label>
+                    <div class="wrong">
+                      <p>Wrong! Please try again!</p>
+                    </div>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p>Where did Argentinosaurus live?</p>
+              <ul>
+                <li>
+                    <input type="radio" name="three" id="north" />
+                    <label class="checked" for="north">North America</label>
+                    <div class="wrong">
+                      <p>Wrong! Please try again!</p>
+                    </div>
+                </li>
+                <li>
+                  <input type="radio" name="three" id="south" />
+                  <label class="checked" for="south">South America</label>
+                    <div class="correct">
+                      <p>Correct!</p>
+                    </div>
+                </li>
+                <li>
+                  <input type="radio" name="three" id="europe"/>
+                  <label class="checked" for="europe">Europe</label>
+                    <div class="wrong">
+                      <p>Wrong! Please try again!</p>
+                    </div> 
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p>What dinosaur is known as 'King of the Lizards'?</p>
+              <ul>
+                <li>
+                  <input type="radio" name="four" id="brachio" />
+                  <label class="checked" for="brachio">Brachiosaurus</label>
                   <div class="wrong">
                     <p>Wrong! Please try again!</p>
                   </div>
-                </label>
-              </li>
-              <li>
-                <label class="checked">
-                  <input type="radio" name="one" /> Meat-eating dinosaur
+                </li>
+                <li>
+                  <input type="radio" name="four" id="trex" />
+                  <label class="checked" for="trex">Tyrannosaurus Rex</label>
                   <div class="correct">
                     <p>Correct!</p>
                   </div>
-                </label>
-              </li>
-              <li>
-                <label class="checked">
-                  <input type="radio" name="one" /> None of the above
+                </li>
+                <li>
+                  <input type="radio" name="four" id="gigo" />
+                  <label class="checked" for="gigo">Giganotosaurus</label>
                   <div class="wrong">
                     <p>Wrong! Please try again!</p>
                   </div>
-                </label>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <p>How tall was Spinosaurus?</p>
-            <ul>
-              <li>
-                <label class="checked">
-                  <input type="radio" name="two" /> As tall as a two-storey
-                  house
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p>When did the dinosaurs go extinct?</p>
+              <ul>
+                <li>
+                  <input id="five" type="radio" name="five" />
+                  <label class="checked" for="five"
+                    >250 million years ago</label
+                  >
+                  <div class="wrong">
+                    <p>Wrong! Please try again!</p>
+                  </div>
+                </li>
+                <li>
+                  <input type="radio" name="five" id="ten" />
+                  <label class="checked" for="ten">10 million years ago</label>
+                  <div class="wrong">
+                    <p>Wrong! Please try again!</p>
+                  </div>
+                </li>
+                <li>
+                  <input type="radio" name="five" id="sixtyFive" />
+                  <label class="checked" for="sixtyFive"
+                    >65 million years ago</label
+                  >
                   <div class="correct">
                     <p>Correct!</p>
                   </div>
-                </label>
-              </li>
-              <li>
-                <label class="checked">
-                  <input type="radio" name="two" /> As tall as bus
-                  <div class="wrong">
-                    <p>Wrong! Please try again!</p>
-                  </div>
-                </label>
-              </li>
-              <li>
-                <label class="checked">
-                  <input type="radio" name="two" /> As tall as an elephant
-                  <div class="wrong">
-                    <p>Wrong! Please try again!</p>
-                  </div>
-                </label>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <p>Where did Argentinosaurus live?</p>
-            <ul>
-              <li>
-                <label class="checked">
-                  <input type="radio" name="three" /> North America
-                  <div class="wrong">
-                    <p>Wrong! Please try again!</p>
-                  </div>
-                </label>
-              </li>
-              <li>
-                <label class="checked">
-                  <input type="radio" name="three" /> South America
-                  <div class="correct">
-                    <p>Correct!</p>
-                  </div>
-                </label>
-              </li>
-              <li>
-                <label class="checked">
-                  <input type="radio" name="three" /> Europe
-                  <div class="wrong">
-                    <p>Wrong! Please try again!</p>
-                  </div>
-                </label>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <p>What dinosaur is known as 'King of the Lizards'?</p>
-            <ul>
-              <li>
-                <label class="checked">
-                  <input type="radio" name="four" /> Brachiosaurus
-                  <div class="wrong">
-                    <p>Wrong! Please try again!</p>
-                  </div>
-                </label>
-              </li>
-              <li>
-                <label class="checked">
-                  <input type="radio" name="four" /> Tyrannosaurus Rex
-                  <div class="correct">
-                    <p>Correct!</p>
-                  </div>
-                </label>
-              </li>
-              <li>
-                <label class="checked">
-                  <input type="radio" name="four" /> Giganotosaurus
-                  <div class="wrong">
-                    <p>Wrong! Please try again!</p>
-                  </div>
-                </label>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <p>When did the dinosaurs go extinct?</p>
-            <ul>
-              <li>
-                <label class="checked">
-                  <input type="radio" name="five" /> 250 million years ago
-                  <div class="wrong">
-                    <p>Wrong! Please try again!</p>
-                  </div>
-                </label>
-              </li>
-              <li>
-                <label class="checked">
-                  <input type="radio" name="five" /> 10 million years ago
-                  <div class="wrong">
-                    <p>Wrong! Please try again!</p>
-                  </div>
-                </label>
-              </li>
-              <li>
-                <label class="checked">
-                  <input type="radio" name="five" /> 65 million years ago
-                  <div class="correct">
-                    <p>Correct!</p>
-                  </div>
-                </label>
-              </li>
-            </ul>
-          </li>
-        </ol>
-      </div>
-    </section>
+                </li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </section>
     </main>
     <footer>
       <div class="flexContainer">
@@ -240,18 +230,18 @@
           <address>Mesozoic Avenue</address>
           <address>Dublin Ireland</address>
           <ul>
-            <li>
-              <a name="youtube" rel="nofollow" target="_blank" href="https://www.youtube.com/"
+            <li id="youtube">
+              <a rel="nofollow" target="_blank" href="https://www.youtube.com/"
                 ><i class="fa-brands fa-youtube"></i
               ></a>
             </li>
-            <li>
-              <a name="facebook" rel="nofollow" target="_blank" href="https://www.facebook.com/"
+            <li id="facebook">
+              <a rel="nofollow" target="_blank" href="https://www.facebook.com/"
                 ><i class="fa-brands fa-square-facebook"></i
               ></a>
             </li>
-            <li>
-              <a name= twitter rel="nofollow" target="_blank" href="https://www.twitter.com/"
+            <li id="twitter">
+              <a rel="nofollow" target="_blank" href="https://www.twitter.com/"
                 ><i class="fa-brands fa-square-x-twitter"></i
               ></a>
             </li>
