@@ -83,8 +83,8 @@ This is a website designed for people of all ages, with an interest in learning 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
 
-- W3C Markup Validator ![Image of Markup Validation result](./assets/images/html_check.png)
-- W3C CSS Validator ![Image of CSS Validator result](./assets/images/css_validation.png)
+- W3C Markup Validator ![Image of Markup Validation result](./assets/images/html_check.PNG)
+- W3C CSS Validator ![Image of CSS Validator result](./assets/images/css_validation.PNG)
 
 ### Testing User Stories from the User Experience (UX) Section
 
@@ -155,10 +155,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - The website was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox browsers.
 - The website was viewed on a variety of devices such as Desktop, Ipad, Iphone and Galaxy phones.
-  Iphone SE ![Image of Iphone SE](./assets/images/iphone_se.PNG)
-  Samsung Galaxy 8+ ![Image of Samsung Galaxy 8plus](./assets/images/samsung_galaxy_8plus.PNG)
-  Ipad Air ![Image of Ipad Air](./assets/images/ipad_air.PNG)
-  Desktop ![Image of Desktop Screen](./assets/images/desktop.PNG)
+- Iphone SE ![Image of Iphone SE](./assets/images/iphone_se.PNG)
+- Samsung Galaxy 8+ ![Image of Samsung Galaxy 8plus](./assets/images/samsung_galaxy_8plus.PNG)
+- Ipad Air ![Image of Ipad Air](./assets/images/ipad_air.PNG)
+- Desktop ![Image of Desktop Screen](./assets/images/desktop.PNG)
 - A number of testing was done to ensure that all links were working.
 - Friends and family were asked to review the site on their own devices, and point out any bugs or issues.
 - A peer review was undertaken among fellow CI students.
@@ -210,9 +210,9 @@ Press Enter. Your local clone will be created.
 ### Code
 
 - W3C Schools was used to learn more about dropdown navigation menus & card effects with CSS.
-- This codepen by Robin Lloyd was used to help code the quiz section of the website ![Link to codepen](https://codepen.io/robinlloyd/pen/gMeaBj).
-- This codepen by Tobias Buchel was used to help code the navigation burger menu ![Link to codepen](https://codepen.io/tobibuechel/pen/mEqoQo).
-- This tutorial by LearnWebCode was used to help with further understanding of flexbox ![Link to video tutorial](https://www.youtube.com/watch?v=k32voqQhODc&ab_channel=LearnWebCode).
+- This codepen by Robin Lloyd was used to help code the quiz section of the website <https://codepen.io/robinlloyd/pen/gMeaBj>.
+- This codepen by Tobias Buchel was used to help code the navigation burger menu <https://codepen.io/tobibuechel/pen/mEqoQo>.
+- This tutorial by LearnWebCode was used to help with further understanding of flexbox <https://www.youtube.com/watch?v=k32voqQhODc&ab_channel=LearnWebCode>.
 - Love Running project from Code Institute course was used to code the animation for hero image.
   
 ### Content
