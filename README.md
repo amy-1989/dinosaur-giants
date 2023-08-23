@@ -2,9 +2,12 @@
 
 This is a website designed for people of all ages, with an interest in learning about the largest dinosaurs of their time. It is designed with ease of use & accessibility in mind. It is responsive on many device sizes & is easy to navigate.
 
+![Image of website on different devices](./assets/images/readme_screengrab.PNG)
+
 ## User Experience
 
-1. User Stories
+- User Stories
+  
    - First time visitor Goals
      - As a first time visitor I want to learn about dinosaurs.
      - As a first time visitor I want to learn what dinosaurs are.
@@ -27,8 +30,23 @@ This is a website designed for people of all ages, with an interest in learning 
      - s a frequent visitor I want to check if there are any new dinosaur facts.
      - As a frequent visitor I want to check if there are any new content to interact with.
 
-2. Wireframes
-   - Mobile Wireframe  ![Image of wireframe for mobile devices](./assets/images/Mobile%20Dinos.jpg)
+- Design
+  
+  - Colour Scheme
+  
+    The main colours used were green, white and orange. Monsido Color Contrast Checker was consulted to ensure enough contrast between background and foreground colour choices.
+    
+  - Typography 
+  
+    The Tapestry font and PT Serif font from Google Fonts is used throughout the site with Sans Serif as the fallback font. These fonts were chosen as a design choice in-keeping with the theme of the website and also because they are easy to read.
+    
+  - Imagery
+  
+    Imagery is very important in a site like this to support the written content. The hero image was chosen as it is exciting and enhances the chosen colour scheme for the site. All other image styles were chosen to compliment the hero image and colour scheme of the site.
+    
+- Wireframes
+  
+   - Mobile Wireframe  ![Image of wireframe for mobile devices](./assets/images/mobile_dinos.jpg)
    - Desktop Wireframe ![Image of wireframe for desktop devices](./assets/images/wireframe2.png)
 
 ## Features
@@ -142,6 +160,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - The website was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox browsers.
 - The website was viewed on a variety of devices such as Desktop, Ipad, Iphone and Galaxy phones.
+  Iphone SE ![Image of Iphone SE](./assets/images/iphone_se.PNG)
+  Samsung Galaxy 8+ ![Image of Samsung Galaxy 8plus](./assets/images/samsung_galaxy_8plus.PNG)
+  Ipad Air ![Image of Ipad Air](./assets/images/ipad_air.PNG)
+  Desktop ![Image of Desktop Screen](./assets/images/desktop.PNG)
 - A number of testing was done to ensure that all links were working.
 - Friends and family were asked to review the site on their own devices, and point out any bugs or issues.
 - A peer review was undertaken among fellow CI students.
@@ -149,10 +171,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - The website was tested for Desktop and Mobile performance using Chrome DevTools Lighthouse.
   - Mobile Performance Results ![Lighthouse mobile performance result](./assets/images/mobile_lighthouse.png)
   - Desktop Performance Results ![Lighthouse desktop performance result](./assets/images/lighthouse_desktop.PNG)
+- The site was tested for accessability using WAVE
+  - WAVE Performance Results ![WAVE performance result](./assets/images/wave_checker.PNG)
 
 ### Known Bugs
 
-- On some mobile devices the navigation bar heading veers to the right.
+- On some mobile devices the navigation bar heading veers to the right. A margin-right of .5rem was added to fix this.
+- On desktop browsers the transition style effect does not work on divs containing video or paragraphs.
 
 ## Deployment
 
@@ -210,3 +235,7 @@ Press Enter. Your local clone will be created.
 - Favicon image was taken from pngkey.
 
 ### Acknowledgements
+
+- I would like to thank my mentor Narender for his invaluable support and insightful feedback during the development of the site.
+- I would like to thank my fellow students on Slack for taking the time to talk through various issues throughout the development, in particular Angus Friel & Sarah-Lee, for their help resolving last minute bugs and lighthouse issues respectively.
+- I would like to thank Tutor Support for their continued support and assistance.
