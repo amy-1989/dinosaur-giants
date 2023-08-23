@@ -183,3 +183,6 @@
         padding: 1.5%;
     }
 }
+@media screen and (max-width: 768px) {
+    .logo { margin-right: .5rem;}
+}

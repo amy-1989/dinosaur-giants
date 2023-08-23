@@ -63,8 +63,13 @@ This is a website designed for people of all ages, with an interest in learning 
 6. iStock
    - iStock was used to source all the images used in the project.
 
+7. Monsido
+   - Monsido Color Contrast Checker was used to ensure correct colour contrast for accessibility.
+
 ## Testing
+
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
+
 - W3C Markup Validator ![Image of Markup Validation result](./assets/images/html_check.png)
 - W3C CSS Validator ![Image of CSS Validator result](./assets/images/css_validation.png)
 
@@ -74,18 +79,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   - As a first time visitor I want to learn about dinosaurs.
 
-    - Upon entering the site, users are greeted with an easily readable navigation bar with a clearly labelled 'About' section which will bring users directly to the first piece of information about dinosaurs. 
+    - Upon entering the site, users are greeted with an easily readable navigation bar with a clearly labelled 'About' section which will bring users directly to the first piece of information about dinosaurs.
     - This section is also conveniently located right below the hero image, so users can easily find the information without having to click the 'About' link.
     - The hero image was selected so users will know instantly that the website is about dinosaurs.
 
   - As a first time visitor I want to learn what dinosaurs are.
 
-     - The landing page is divided into three main sections below the hero image. Each section clearly provides more detailed information about dinosaurs in a logical sequence.
+    - The landing page is divided into three main sections below the hero image. Each section clearly provides more detailed information about dinosaurs in a logical sequence.
     - There is also a short informational video about dinosaurs embedded on the landing page right below the hero image.
+  
   - As a first time visitor I want to learn what kinds of dinosaurs are there.
+  
     - The landing page has been designed with three paragraph sections detailing information about the dinosaurs.
     - There is a clearly labelled page link'Dinosaurs' in the navigation bar which allows users to go straight to more information about the different kinds of dinosaur.
-    - There are links provided in the first paragraph below the hero image highlighted with a text underline, prompting users to click to find more detailed information. 
+    - There are links provided in the first paragraph below the hero image highlighted with a text underline, prompting users to click to find more detailed information.
     - There is a link in the navigation bar to a 'Fun Quiz' which users can interact with and test what they have learned.
 
   - As a first time visitor I want to easily navigate through the website to find content.
@@ -103,7 +110,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     - There are links to Facebook, Twitter & Youtube provided in the footer at the end of each page.
     - These links will all open in a new tab so users can easily find their way back to our site.
 
-  
   - Returning Visitor Goals
 
     - As a returning visitor I want to find more information about dinosaurs.
@@ -116,13 +122,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     - As a returning visitor I want to find contact information to ask any questions.
 
       - There are social media links to Facebook, Youtube & Twitter in the footer at the end of each page so users can get in touch if they wish.
-    
-  
+
   - Frequent Visitor Goals
 
     - As a returning visitor I want to see is there a newsletter I can join or a blog I can follow.
 
-      - In the footer at the end of each page there is a sign up form for users to register if they wish to join our weekly newsletter. 
+      - In the footer at the end of each page there is a sign up form for users to register if they wish to join our weekly newsletter.
       - There is also a clearly labelled 'Newsletter' link provided in the navigation bar at the top of each page.
 
     - As a frequent visitor I want to check if there are any new content to interact with.
@@ -142,10 +147,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - A peer review was undertaken among fellow CI students.
 - The website was continuously tested throughout development using Chrome DevTools.
 - The website was tested for Desktop and Mobile performance using Chrome DevTools Lighthouse.
+  - Mobile Performance Results ![Lighthouse mobile performance result](./assets/images/mobile_lighthouse.png)
+  - Desktop Performance Results ![Lighthouse desktop performance result](./assets/images/lighthouse_desktop.PNG)
 
 ### Known Bugs
 
-- On some mobile devices the navigation bar heading veers to the right. 
+- On some mobile devices the navigation bar heading veers to the right.
 
 ## Deployment
 
@@ -178,16 +185,23 @@ Change the current working directory to the location where you want the cloned d
 Type git clone, and then paste the URL you copied in Step 3.
 Press Enter. Your local clone will be created.
 
-
 ## Credits
 
 ### Code
 
+- W3C Schools was used to learn more about dropdown navigation menus & card effects with CSS.
+- This codepen by Robin Lloyd was used to help code the quiz section of the website ![Link to codepen](https://codepen.io/robinlloyd/pen/gMeaBj).
+- This codepen by Tobias Buchel was used to help code the navigation burger menu ![Link to codepen](https://codepen.io/tobibuechel/pen/mEqoQo).
+- This tutorial by LearnWebCode was used to help with further understanding of flexbox ![Link to video tutorial](https://www.youtube.com/watch?v=k32voqQhODc&ab_channel=LearnWebCode).
+- Love Running project from Code Institute course was used to code the animation for hero image.
+  
 ### Content
 
 - All content was written by the developer.
 - Various dinosaur facts were taken from the following books:
-
+  - Dictionary of Dinosaurs by Dr Matthew G. Baron.
+  - Dinosaur A-Z by Gill Davies.
+  - Dinosaurs, a children's encyclopedia by Penguin Randomhouse.
 
 ### Media
 
