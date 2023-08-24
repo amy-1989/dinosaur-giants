@@ -166,10 +166,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - A peer review was undertaken among fellow CI students.
 - The website was continuously tested throughout development using Chrome DevTools.
 - The website was tested for Desktop and Mobile performance using Chrome DevTools Lighthouse.
-  - Mobile Performance Results ![Lighthouse mobile performance result](./assets/images/mobile_lighthouse.png)
-  - Desktop Performance Results ![Lighthouse desktop performance result](./assets/images/lighthouse_desktop.PNG)
+  - Mobile Performance Results ![Lighthouse mobile performance result](./documents/images/mobile_lighthouse.png)
+  - Desktop Performance Results ![Lighthouse desktop performance result](./documents/images/lighthouse_desktop.PNG)
 - The site was tested for accessability using WAVE
-  - WAVE Performance Results ![WAVE performance result](./assets/images/wave_checker.PNG)
+  - WAVE Performance Results ![WAVE performance result](./documents/images/wave_checker.PNG)
 
 ### Known Bugs
 
