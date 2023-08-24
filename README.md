@@ -2,7 +2,7 @@
 
 This is a website designed for people of all ages, with an interest in learning about the largest dinosaurs of their time. It is designed with ease of use & accessibility in mind. It is responsive on many device sizes & is easy to navigate.
 
-![Image of website on different devices](./assets/images/readme_screengrab.PNG)
+![Image of website on different devices](./documents/images/readme_screengrab.PNG)
 
 ## User Experience
 
@@ -41,8 +41,8 @@ This is a website designed for people of all ages, with an interest in learning 
 
 - Wireframes
   
-  - Mobile Wireframe  ![Image of wireframe for mobile devices](./assets/images/mobile_dinos.jpg)
-  - Desktop Wireframe ![Image of wireframe for desktop devices](./assets/images/wireframe2.png)
+  - Mobile Wireframe  ![Image of wireframe for mobile devices](./documents/images/mobile_dinos.jpg)
+  - Desktop Wireframe ![Image of wireframe for desktop devices](./documents/images/wireframe2.png)
 
 ## Features
 
@@ -83,8 +83,8 @@ This is a website designed for people of all ages, with an interest in learning 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
 
-- W3C Markup Validator ![Image of Markup Validation result](./assets/images/html_check.PNG)
-- W3C CSS Validator ![Image of CSS Validator result](./assets/images/css_validation.PNG)
+- W3C Markup Validator ![Image of Markup Validation result](./documents/images/html_check.PNG)
+- W3C CSS Validator ![Image of CSS Validator result](./documents/images/css_validation.PNG)
 
 ### Testing User Stories from the User Experience (UX) Section
 
@@ -154,11 +154,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Further Testing
 
 - The website was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox browsers.
+  ![Image of browser test matrix](./documents/images/browser_test.PNG)
 - The website was viewed on a variety of devices such as Desktop, Ipad, Iphone and Galaxy phones.
-- Iphone SE ![Image of Iphone SE](./assets/images/iphone_se.PNG)
-- Samsung Galaxy 8+ ![Image of Samsung Galaxy 8plus](./assets/images/samsung_galaxy_8plus.PNG)
-- Ipad Air ![Image of Ipad Air](./assets/images/ipad_air.PNG)
-- Desktop ![Image of Desktop Screen](./assets/images/desktop.PNG)
+  ![Image of responsiveness test matrix](./documents/images/responsiveness_test.PNG)
+- Iphone SE ![Image of Iphone SE](./documents/images/iphone_se.PNG)
+- Samsung Galaxy 8+ ![Image of Samsung Galaxy 8plus](./documents/images/samsung_galaxy_8plus.PNG)
+- Ipad Air ![Image of Ipad Air](./documents/images/ipad_air.PNG)
+- Desktop ![Image of Desktop Screen](./documents/images/desktop.PNG)
 - A number of testing was done to ensure that all links were working.
 - Friends and family were asked to review the site on their own devices, and point out any bugs or issues.
 - A peer review was undertaken among fellow CI students.
@@ -172,6 +174,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Known Bugs
 
 - On some mobile devices the navigation bar heading veers to the right. A margin-right of .5rem was added to fix this.
+- The burger navigation button jumps to the right when clicked on tablets and mobile.
 - On desktop browsers the transition style effect does not work on divs containing video or paragraphs.
 
 ## Deployment
